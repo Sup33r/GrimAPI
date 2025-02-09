@@ -15,7 +15,7 @@ public interface AlertManager {
      * Toggles alerts for the player.
      * @param player
      */
-    void toggleAlerts(Player player);
+    void toggleAlerts(Player player, boolean silent);
 
     /**
      * Checks if the player has verbose enabled.
@@ -28,6 +28,6 @@ public interface AlertManager {
      * Toggles verbose for the player.
      * @param player
      */
-    void toggleVerbose(Player player);
+    void toggleVerbose(Player player, boolean silent);
 
 }
